@@ -1,0 +1,18 @@
+ 2037  git add --all
+ 2038  git commit
+ 2039  git commit -m "commit"
+ 2040  cat ./git_hist.sh 
+ 2041  git push -u origin main
+ 2042  git pull --help
+ 2043  git pull origin
+ 2044  cat ./git_hist.sh 
+ 2045  git add --all
+ 2046  git commit -m "commit"
+ 2047  git push -u origin main
+ 2048  dd if=/dev/random bs=1M count=50|pv > test_50M.bin
+ 2050  rm 10Mb_bz.bin 
+ 2051  ./git_hist.sh 
+ 2057  git push -u origin main
+ 2058  rm test_100M.bin 
+ 2059  ./git_hist.sh 
+ 2066  history | tail -30 > hist.txt
