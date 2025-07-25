@@ -1,7 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой одностраничный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Привет группа Анти-Мусорники</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Сайт для систематизации собранной информации.</h1>
+    </header>
+    
+    <div class="container">
+        <nav class="sidebar">
+            <ul id="menu">
+                <li data-content="content1">Адрес 1</li>
+                <li data-content="content2">Адрес 2</li>
+                <li data-content="content3">Адрес 3</li>
+                <li data-content="content4">Адрес 4</li>
+                <li data-content="content4">Адрес 5</li>                
+            </ul>
+        </nav>
+        
+        <main class="content" id="main-content">
+            <div id="content1" class="content-item active">
+                <h2>Адрес 1</h2>
+                <p>Текст для первого пункта меню.</p>
+            </div>
+            
+            <div id="content2" class="content-item">
+                <h2>Адрес 2</h2>
+                <p>Текст для второго пункта меню.</p>
+            </div>
+            
+            <div id="content3" class="content-item">
+                <h2>Адрес 3</h2>
+                <p>Текст для третьего пункта меню.</p>
+            </div>
+            
+            <div id="content4" class="content-item">
+                <h2>Адрес 4</h2>
+                <p>Текст для четвертого пункта меню.</p>
+            </div>
+
+            <div id="content5" class="content-item">
+                <h2>Адрес 5</h2>
+                <p>Текст для пятого пункта меню.</p>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
